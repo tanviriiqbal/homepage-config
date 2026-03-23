@@ -270,3 +270,158 @@ Data: {"type":"Buffer","data":[60,33,100,111,99,116,121,112,101,32,104,116,109,1
     at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
     at retryNode (/app/node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
     at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-03-23T21:55:17.445Z] error: <servicesProxy> YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2741:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at r (/app/.next/server/chunks/8015.js:1:13205)
+    at async v (/app/.next/server/chunks/8015.js:1:15774)
+    at async w (/app/.next/server/chunks/8015.js:1:16053)
+    at async l (/app/.next/server/pages/api/services/proxy.js:41:17712)
+    at async tA (/app/node_modules/.pnpm/next@15.5.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:105856)
+[2026-03-23T21:55:17.448Z] error: <servicesProxy> YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2741:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at r (/app/.next/server/chunks/8015.js:1:13205)
+    at async v (/app/.next/server/chunks/8015.js:1:15774)
+    at async w (/app/.next/server/chunks/8015.js:1:16053)
+    at async l (/app/.next/server/pages/api/services/proxy.js:41:17712)
+    at async tA (/app/node_modules/.pnpm/next@15.5.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:105856)
+[2026-03-23T21:55:17.448Z] error: <servicesProxy> YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2741:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at r (/app/.next/server/chunks/8015.js:1:13205)
+    at async v (/app/.next/server/chunks/8015.js:1:15774)
+    at async w (/app/.next/server/chunks/8015.js:1:16053)
+    at async l (/app/.next/server/pages/api/services/proxy.js:41:17712)
+    at async tA (/app/node_modules/.pnpm/next@15.5.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:105856)
+[2026-03-23T21:55:17.460Z] error: <servicesProxy> YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2741:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at r (/app/.next/server/chunks/8015.js:1:13205)
+    at async v (/app/.next/server/chunks/8015.js:1:15774)
+    at async w (/app/.next/server/chunks/8015.js:1:16053)
+    at async l (/app/.next/server/pages/api/services/proxy.js:41:17712)
+    at async tA (/app/node_modules/.pnpm/next@15.5.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:105856)
+[2026-03-23T21:55:17.461Z] error: <servicesProxy> YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2741:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at r (/app/.next/server/chunks/8015.js:1:13205)
+    at async v (/app/.next/server/chunks/8015.js:1:15774)
+    at async w (/app/.next/server/chunks/8015.js:1:16053)
+    at async l (/app/.next/server/pages/api/services/proxy.js:41:17712)
+    at async tA (/app/node_modules/.pnpm/next@15.5.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:105856)
+[2026-03-23T21:55:17.462Z] error: <servicesProxy> YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2741:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at r (/app/.next/server/chunks/8015.js:1:13205)
+    at async v (/app/.next/server/chunks/8015.js:1:15774)
+    at async w (/app/.next/server/chunks/8015.js:1:16053)
+    at async l (/app/.next/server/pages/api/services/proxy.js:41:17712)
+    at async tA (/app/node_modules/.pnpm/next@15.5.11_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:1:105856)
+[2026-03-23T21:55:17.463Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:17.464Z] error: YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+[2026-03-23T21:55:17.469Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:17.469Z] error: YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+[2026-03-23T21:55:17.834Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:17.834Z] error: YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 |           username: homepageapi
+ 36 |           password: osf5u0tkrLf ...
+ 37 | 
+ 38 | Immich:
+------^
+ 39 |   href: http://192.168.1.193:2283
+ 40 |   widget:
+[2026-03-23T21:55:35.410Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:35.410Z] error: TypeError: b[c].forEach is not a function
+[2026-03-23T21:55:35.751Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:35.751Z] error: TypeError: b[c].forEach is not a function
+[2026-03-23T21:55:51.492Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:51.492Z] error: TypeError: b[c].forEach is not a function
+[2026-03-23T21:55:51.534Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:51.534Z] error: TypeError: b[c].forEach is not a function
+[2026-03-23T21:55:51.798Z] error: Failed to load services.yaml, please check for errors
+[2026-03-23T21:55:51.798Z] error: TypeError: b[c].forEach is not a function
+[2026-03-23T21:56:25.949Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.193:2283/api/server/statistics
