@@ -1,0 +1,60 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- My First Group:
+    - My First Service:
+        href: http://localhost/
+        description: Homepage is awesome
+
+- My Second Group:
+    - My Second Service:
+        href: http://localhost/
+        description: Homepage is the best
+
+- My Third Group:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎
+
+- Infrastructure:
+    - Proxmox:
+        href: https://192.168.1.35:8006
+        widget:
+          type: proxmox
+          url: https://192.168.1.35:8006
+          username: {{HOMEPAGE_VAR_PROXMOX_USERNAME}}
+          password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+    - Grafana:
+        href: http://192.168.1.87:3000/dashboards
+        widget:
+          type: grafana
+          version: 2 # optional, default is 1
+          #alerts: alertmanager # optional, default is grafana
+          url: http://192.168.1.87:3000
+          username: {{HOMEPAGE_VAR_GRAFANA_USERNAME}}
+          password: {{HOMEPAGE_VAR_GRAFANA_PASSWORD}}
+
+
+- Portainer:
+    - Teslamate:
+        href: https://192.168.1.100:9443/#!/5/docker/dashboard
+        widget:
+          type: portainer
+          url: https://192.168.1.100:9443
+          env: 5
+          key: {{HOMEPAGE_VAR_PORTAINER_KEY}}
+    - Frigate:
+        href: https://192.168.1.100:9443/#!/9/docker/dashboard
+        widget:
+          type: portainer
+          url: https://192.168.1.100:9443
+          env: 9
+          key: {{HOMEPAGE_VAR_PORTAINER_KEY}}
+    - Homepager:
+        href: https://192.168.1.100:9443/#!/10/docker/dashboard
+        widget:
+          type: portainer
+          url: https://192.168.1.100:9443
+          env: 10
+          key: {{HOMEPAGE_VAR_PORTAINER_KEY}}
