@@ -51,14 +51,14 @@
           url: https://192.168.1.100:9443
           env: 5
           key: {{HOMEPAGE_VAR_PORTAINER_KEY}}
-    - Frigate:
-        href: https://192.168.1.100:9443/#!/9/docker/dashboard
+    - FrigateLXC:
+        href: https://192.168.1.100:9443/#!/13/docker/dashboard
         widget:
           type: portainer
           url: https://192.168.1.100:9443
-          env: 9
+          env: 13
           key: {{HOMEPAGE_VAR_PORTAINER_KEY}}
-    - Homepager:
+    - Homepage:
         href: https://192.168.1.100:9443/#!/10/docker/dashboard
         widget:
           type: portainer
