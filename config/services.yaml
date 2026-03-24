@@ -19,6 +19,7 @@
 
 - Infrastructure:
     - Proxmox:
+        icon: proxmox.png
         href: https://192.168.1.35:8006
         widget:
           type: proxmox
@@ -26,6 +27,7 @@
           username: {{HOMEPAGE_VAR_PROXMOX_USERNAME}}
           password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
     - Grafana:
+        icon: grafana.png
         href: http://192.168.1.87:3000/dashboards
         widget:
           type: grafana
@@ -35,12 +37,22 @@
           username: {{HOMEPAGE_VAR_GRAFANA_USERNAME}}
           password: {{HOMEPAGE_VAR_GRAFANA_PASSWORD}}
     - Immich:
+        icon: immich.png
         href: http://192.168.1.193:2283
         widget:
           type: immich
           url: http://192.168.1.193:2283
           key: {{HOMEPAGE_VAR_IMMICH_KEY}}
           version: 2
+    - Frigate:
+        icon: frigate.png
+        href: http://192.168.1.60:5000
+        widget:
+          type: frigate
+          url: http://192.168.1.60:5000
+          enableRecentEvents: true # Optional, defaults to false
+          username: {{HOMEPAGE_VAR_FRIGATE_USERNAME}}
+          password: {{HOMEPAGE_VAR_FRIGATE_PASSWORD}}
 
 
 - Portainer:
