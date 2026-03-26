@@ -53,7 +53,13 @@
           enableRecentEvents: true # Optional, defaults to false
           username: {{HOMEPAGE_VAR_FRIGATE_USERNAME}}
           password: {{HOMEPAGE_VAR_FRIGATE_PASSWORD}}
-
+    - NGINX Proxy Manager:
+        href: http://192.168.1.17:81
+        widget:
+          type: npm
+          url: http://192.168.1.17:81
+          username: {{HOMEPAGE_VAR_NPM_USERNAME}}
+          password: {{HOMEPAGE_VAR_NPM_PASSWORD}}
 
 - Portainer:
     - Teslamate:
